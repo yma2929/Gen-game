@@ -1,0 +1,127 @@
+
+p{
+    font-family: "Vidaloka", serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #504E76;
+    padding: 20px;
+}
+h1{
+    font-family:"Playfair Display", serif;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 65px;
+    color: #081f5c;
+    text-align: center;
+}
+body{
+    background-color:#fcfaf8 ;
+}
+
+header{
+    grid-area: header;
+    display:block;
+    background-color: #edf1f6;
+    margin:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    
+    border-radius: 25px;
+
+}
+.about{
+    background-color: rgb(42, 17, 83);
+    
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.about p{
+    color: white;
+}
+/* nav css starts here */
+#navArea li a{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: 16px;
+    color: #0f0f3d;
+    text-decoration: none;
+}
+
+.navBar{
+    list-style: none;
+    display:flex;
+    gap:20px
+}
+.navBar li{
+    display: inline;
+    padding: 0 20px;
+    color:#081f5c;
+}
+.navBar li a{
+    transition: all 0.3s ease 0s;
+}
+.navBar li a:hover{
+    color: rgb(5, 19, 37) !important;
+    font-weight: 900;
+    font-size: 20px !important;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+img.logo{
+    border-radius: 15px;
+}
+/* nav css ends here */
+
+
+    /*footer css starts here */
+    footer{
+        grid-area: footer;
+        padding: 10px;
+        text-align: center;
+        margin: 10px;
+        border-radius: 15px;
+       
+        background-color: #d5e3f4;
+        border-radius: 20px; 
+    }
+    /*footer css ends here */
+
+
+    table {
+        width: 80%;
+        margin: 50px auto;
+        border-collapse: collapse;
+        font-family: serif;
+        font-size: 25px;
+        
+        box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.2) !important;
+    }
+    
+    /* Table Header */
+    th {
+        background-color: #0f0f3d;
+        color: white;
+        padding: 12px;
+        text-align: center;
+    }
+
+    /* Table Body */
+    td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    td a {
+        color: #37126f;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+
+   

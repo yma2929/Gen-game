@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Gen Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="form.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=Elsie+Swash+Caps:wght@400;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Vidaloka&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container">
+        <header class="item header">
+            <a href="./index.html"> 
+                <img class="logo" src="./media/logo.jpeg" alt="logo pic" width="100" height="100">
+            </a>
+            <nav id="navArea">
+                <ul class="navBar">
+
+                    <li><a href="./index.html">Home</a></li>
+                <li><a href="./aboutUs.html">About Us</a></li>
+                <li><a href="./form.html">Form</a></li>
+                <li><a href="./chat.html">Chat</a></li>
+                </ul>
+            </nav>
+            
+        
+        </header>
+        
+        <section class="userOpinion">
+            <h2>💌 We would like to know more about you!</h2>
+           
+
+           <form method="post" action="#" autocomplete="on" >
+            <h3> Health Form 🌟</h3>
+            <p>
+                <label>First Name:
+                    <input type="text" size="35" name="fname" id="firstName" placeholder="John" required >
+                </label>
+            </p>
+            <p>
+                <label> Last Name:
+                    <input type="text" size="35" name="lname" id="lastName" placeholder="James">
+                </label>
+            </p>
+            <p>
+                <label>Email Address:
+                    <input type="email" name="email" size="35" id="emailAddress" pattern="[a-zA-Z0-9-_!]+@[a-zA-z]{2,8}\.[a-zA-Z]{2,6}" placeholder="e.g  jphnjames234@gmail.com" required>
+                </label>
+            </p>
+            <p>
+                <label> Phone Number:
+                    <input type="tel" name="phoneNum" size="35" minlength="9" maxlength="9" pattern="[0-9]{9}" placeholder="e.g 055452349">
+                </label>
+            </p>
+            
+                <label>Which sports do you best prefer?</label>
+                <p>
+                    <label>
+                    <input type="checkbox" value="fifa" id="fifa" name="sportTypes">
+                    FIFA – Football video game, played competitively. </label> <br>
+                    
+                    <label>
+                        <input type="checkbox" value="NBA2K" id="NBA2K" name="sportTypes">
+                        NBA 2K – Basketball simulation game.  </label><br>
+                    <label>
+                        <input type="checkbox" value="RocketLeague" id="RocketLeague" name="sportTypes">
+                        Rocket League – Car soccer game, fast-paced and team-based.</label><br>
+
+                    <label>
+                            <input type="checkbox" value="Tennis" id="Tennis" name="sportTypes">
+                            Tennis – Individual or doubles racquet sport. </label><br>
+
+                    <label>
+                                <input type="checkbox" value="CSGO" id="CSGO" name="sportTypes">
+                                CS:GO (Counter-Strike: Global Offensive) – First-person shooter played in teams. </label><br>
+
+
+                    <label>
+                                    <input type="checkbox" value="Dota" id="Dota" name="sportTypes">
+                                    Dota 2 – Multiplayer online battle arena (MOBA).  </label><br>
+        
+                    <label>
+                                        <input type="checkbox" value="Basketball" id="Basketball" name="sportTypes">
+                                        Basketball – Fast-paced, indoor/outdoor team sport.
+
+ </label><br>
+ 
+        
+        
+
+                </p>
+           
+                <label> Which Scenarios do you find yourself in ?</label>
+                <p>
+                    <label>
+                        <input type="checkbox" value="injury" id="injury" name="scenarios">
+                        Injury – Physical harm or damage to the body. </label>
+
+                    <label>
+                        <input type="checkbox" value="fatigue" id="fatigue" name="scenarios">
+                        Fatigue – Extreme tiredness or exhaustion. </label>
+                    <label>
+                        <input type="checkbox" value="stress" id="stress" name="scenarios">
+                        Stress – Mental or emotional strain. </label>
+                    
+                </p>
+            
+            <label> Rate your skills:</label>
+                <p>
+                    <label>
+                        <input type="radio" name="recipeRate" value="1"> ⭐
+                    </label>
+                    <label>
+                        <input type="radio" name="recipeRate" value="2"> ⭐⭐
+                    </label>
+                    <label>
+                        <input type="radio" name="recipeRate" value="3"> ⭐⭐⭐
+                    </label>
+                    <label>
+                        <input type="radio" name="recipeRate" value="4"> ⭐⭐⭐⭐
+                    </label>
+                    <label>
+                        <input type="radio" name="recipeRate" value="5"> ⭐⭐⭐⭐⭐
+                    </label>
+                    
+                    
+                    
+                </p>
+            
+            <p>
+                <label for="textarea">Please provide any comments:</label>
+            </p>
+            <p>
+                <textarea cols="100" rows="25" id="textarea">📩Write here..</textarea>
+
+            </p>
+            <p>
+                <label for="select">How did you hear about us?</label>
+                <select name="hearAbout" id="select">
+                    <option value="friends">Friends</option>
+                    <option value="socialMedia">Social Media</option>
+                    <option value="searchEngine">Search Engine</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+            <p>
+    
+                <input type="reset" value="Reset" class="button">
+                <input type="submit" value="Submit" class="button">
+            </p>
+
+            </form>
+
+       
+        
+
+        
+
+        
+    
+        
+    <footer>
+
+        <p> &copy; 2025 Gen Game</p>
+        <p>All rights reserved</p>
+
+    </footer>
+
+        
+    </div>
+    </body>
+</html>

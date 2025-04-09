@@ -1,0 +1,107 @@
+
+
+header{
+    grid-area: header;
+    display:block;
+    background-color: #edf1f6;
+    margin:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    
+    border-radius: 25px;
+
+}
+/* nav css starts here */
+#navArea li a{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: 16px;
+    color: #0f0f3d;
+    text-decoration: none;
+}
+
+.navBar{
+    list-style: none;
+    display:flex;
+    gap:20px
+}
+.navBar li{
+    display: inline;
+    padding: 0 20px;
+    color:#081f5c;
+}
+.navBar li a{
+    transition: all 0.3s ease 0s;
+}
+.navBar li a:hover{
+    color: rgb(5, 19, 37) !important;
+    font-weight: 900;
+    font-size: 20px !important;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+img.logo{
+    border-radius: 15px;
+}
+
+
+/* nav css ends here */
+.userOpinion{
+    
+    grid-area: form;
+
+}
+form{
+    background-color: #eef5f7;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(111, 110, 111, 0.2) !important;
+    padding: 20px;
+    margin: 10px;
+
+
+}
+form .button{
+    padding: 10px 30px;
+    margin: 10px auto;
+    border:none;
+    outline: none;
+    color:rgb(81, 81, 127);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 45px;
+    background-color: #e9f3ff;
+    text-decoration: none;
+    font-family: "Elsie Swash Caps", cursive;
+    font-size: 15px;
+    font-weight: 200;
+    text-align:center;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.2) !important;
+
+    
+}
+form .button:hover{
+    background-color: rgb(81, 81, 127);
+    color: white;
+    font-weight:bold;
+    box-shadow: 5px 5px 15px rgba(246, 0, 74, 0.2) !important;
+
+
+}
+footer{
+    grid-area: footer;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #d5e3f4;
+    border-radius: 20px; 
+}
