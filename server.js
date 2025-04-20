@@ -3,6 +3,8 @@ const application = express();
 const cors = require("cors");
 const port = 3000;
 const mysql = require("mysql2");
+const fs = require("fs");
+const path = require("path");
 
 let db = mysql.createConnection({
     
@@ -90,9 +92,23 @@ function addUserOpinion(firstName,lastName,emailAddress,phoneNumber,scenarios,sp
         });
     });
 }
+application.get("/export-json",(req,res)=>{
+    db.query("SELECT * FROM player",(err,result)=>{
+        if(err){
+            console.error("Error retrieving data:",err);
+            return res.status(500).send("Error fetching data.");
+        }
 
+        const filePath = path.join(__dirname,"playerData.json");
 
-
-
+        fs.writeFile(filePath,JSON.stringify(result,null,2),(err)=>{
+            if(err){
+                console.error("Error writing in file:",err);
+                return res.status(500).send("Error writing file:");
+            }
+            res.download(filePath);
+        });
+    });
+});
 application.listen(port, ()=>{
     console.log("Server is running on port " + port) });
