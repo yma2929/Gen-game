@@ -3,18 +3,20 @@ const application = express();
 const cors = require("cors");
 const port = 3000;
 const mysql = require("mysql2");
+const ExcelJS = require("exceljs");
 const fs = require("fs");
 const path = require("path");
 
-let db = mysql.createConnection({
+const dp = mysql.createPool({
     
     host: "localhost",
     user: "root",
     password: "",
     database: "arcane_algo",
-    port: 3306
-});
-
+    port: 3306,
+    waitForConnections: true,
+    connectionLimit: 10,
+}).promise();
 
 
 application.use(cors({
@@ -70,30 +72,31 @@ application.post("/dp", (req,res)=>{
 });
 
 
-function addUserOpinion(firstName,lastName,emailAddress,phoneNumber,scenarios,sportTypes,levelRate,comments){
+async function addUserOpinion(firstName,lastName,emailAddress,phoneNumber,scenarios,sportTypes,levelRate,comments){
 
-   
-    db.connect((err) => {
-        if (err) {
-            console.error("Connection Error:", err);
-            return;
-        }
-    
+
+   // db.connect((err) => {
+       // if (err) {
+            //console.error("Connection Error:", err);
+            //return; }
+    try{
         const sql = `INSERT INTO player (firstName, lastName, emailAddress, phoneNumber, scenarios, sportTypes, levelRate, comments)
-                     VALUES (?, ?, ?, ?, ?, ?, ?, ?)`;
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)`;
     
-        db.query(sql, [firstName, lastName, emailAddress, phoneNumber, scenarios, sportTypes, levelRate, comments], (error, result) => {
-            if (error) {
-                console.error("Query Error:", error);
-            } else {
+    await dp.query(sql, [firstName, lastName, emailAddress, phoneNumber, scenarios, sportTypes, levelRate, comments])
+            
                 console.log("Data has been inserted successfully.");
-            }
-            db.end();
-        });
-    });
-}
+            
+        }
+        catch(error){
+            console.error("Query error:",error);
+
+        }
+    }
+
+/*
 application.get("/export-json",(req,res)=>{
-    db.query("SELECT * FROM player",(err,result)=>{
+    dp.query("SELECT * FROM player",(err,result)=>{
         if(err){
             console.error("Error retrieving data:",err);
             return res.status(500).send("Error fetching data.");
@@ -109,6 +112,59 @@ application.get("/export-json",(req,res)=>{
             res.download(filePath);
         });
     });
-});
+});*/
+application.get("/export-json", async (req, res) => {
+    try {
+      const [rows] = await dp.query("SELECT * FROM player");
+      const filePath = path.join(__dirname, "playerData.json");
+  
+      await fs.promises.writeFile(filePath, JSON.stringify(rows, null, 2));
+      return res.download(filePath);
+    } catch (err) {
+      console.error("Export JSON error:", err);
+      return res.status(500).send("Failed to export JSON.");
+    }
+  });
+  
+
+application.get('/export-excel-exceljs',async(req,res)=>{
+    try{
+        const [rows] = await dp.query("SELECT * FROM player");
+
+        const workbook = new ExcelJS.Workbook();
+        const sheet = workbook.addWorksheet('Players');
+
+        sheet.columns = [
+            { header: 'First Name',   key: 'firstName',    width: 20 },
+            { header: 'Last Name',    key: 'lastName',     width: 20 },
+            { header: 'Email',        key: 'emailAddress', width: 30 },
+            { header: 'Phone',        key: 'phoneNumber',  width: 15 },
+            { header: 'Scenarios',    key: 'scenarios',    width: 30 },
+            { header: 'Sport Types',  key: 'sportTypes',   width: 20 },
+            { header: 'Level Rate',   key: 'levelRate',    width: 10 },
+            { header: 'Comments',     key: 'comments',     width: 40 }
+          ];
+
+          rows.forEach(row => sheet.addRow(row));
+
+
+          const filePath = path.join(__dirname,'playerData.xlsx');
+          await workbook.xlsx.writeFile(filePath);
+
+          res.download(filePath,'playerData.xlsx',(err)=>{
+            if(err) console.error("Download error:",err);
+          })
+    } catch(err){
+        console.error('ExcelJS export error:',err);
+        res.status(500).send('Failed to export file.');
+    }
+})
+
+
+
+
+
+
+
 application.listen(port, ()=>{
     console.log("Server is running on port " + port) });
