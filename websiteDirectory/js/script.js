@@ -13,7 +13,7 @@ form.addEventListener("submit", function(event) {
     const phoneNumber = document.getElementById("phoneNumber").value.trim();
     const comments = document.getElementById("textarea").value;
     const sportTypes = Array.from(document.querySelectorAll('input[name="sportTypes"]:checked')).map(el => el.value);
-    const scenarios = Array.from(document.querySelectorAll('input[name="scenarios"]:checked')).map(el => el.value);
+    const Skill = Array.from(document.querySelectorAll('input[name="Skill"]:checked')).map(el => el.value);
     const levelRate = document.querySelector('input[name="levelRate"]:checked')?.value;
 
 
@@ -33,7 +33,7 @@ form.addEventListener("submit", function(event) {
             lastName:lastName,
             emailAddress:emailAddress,
             phoneNumber:phoneNumber,
-            scenarios:scenarios,
+            Skill:Skill,
             sportTypes:sportTypes,
             levelRate:levelRate,
             comments:comments
@@ -50,7 +50,7 @@ form.addEventListener("submit", function(event) {
     .then(function(data){
         
         if(data.status){
-            document.getElementById("confirmation-message").innerHTML = "<span style='background-color:#f4e8d0; color:#003049;    padding: 20px;margin: 20px;border-radius:15px; font-family:serif;'>Thank you, your review has been received.</span>";
+            document.getElementById("confirmation-message").innerHTML = "<span style='background-color:#f4e8d0; color:#003049;  margin:20px;  padding: 20px;margin: 20px;border-radius:15px; font-family:serif;'>Thank you, your review has been received.</span>";
         }else{
             throw new Error(data.err);
         }

@@ -36,7 +36,7 @@ application.post("/dp", (req,res)=>{
     const lastName = req.body.lastName || '';
     const emailAddress = req.body.emailAddress || '';
     const phoneNumber = req.body.phoneNumber || '';
-    const scenarios = req.body.scenarios || '';
+    const Skill = req.body.Skill || '';
     const sportTypes = req.body.sportTypes || '';
     const levelRate = req.body.levelRate || '';
     const comments = req.body.comments || '';
@@ -57,7 +57,7 @@ application.post("/dp", (req,res)=>{
 
     if(validName && validEmail && validPhone && validRating){
         message ={status:true, err:""};
-        addUserOpinion(firstName,lastName,emailAddress,phoneNumber,scenarios,sportTypes,levelRate,comments);
+        addUserOpinion(firstName,lastName,emailAddress,phoneNumber,Skill,sportTypes,levelRate,comments);
 
     }else{
         message ={
@@ -72,7 +72,7 @@ application.post("/dp", (req,res)=>{
 });
 
 
-async function addUserOpinion(firstName,lastName,emailAddress,phoneNumber,scenarios,sportTypes,levelRate,comments){
+async function addUserOpinion(firstName,lastName,emailAddress,phoneNumber,Skill,sportTypes,levelRate,comments){
 
 
    // db.connect((err) => {
@@ -80,10 +80,10 @@ async function addUserOpinion(firstName,lastName,emailAddress,phoneNumber,scenar
             //console.error("Connection Error:", err);
             //return; }
     try{
-        const sql = `INSERT INTO player (firstName, lastName, emailAddress, phoneNumber, scenarios, sportTypes, levelRate, comments)
+        const sql = `INSERT INTO player (firstName, lastName, emailAddress, phoneNumber, Skill, sportTypes, levelRate, comments)
                     VALUES (?, ?, ?, ?, ?, ?, ?, ?)`;
     
-    await dp.query(sql, [firstName, lastName, emailAddress, phoneNumber, scenarios, sportTypes, levelRate, comments])
+    await dp.query(sql, [firstName, lastName, emailAddress, phoneNumber, Skill, sportTypes, levelRate, comments])
             
                 console.log("Data has been inserted successfully.");
             
@@ -139,7 +139,7 @@ application.get('/export-excel-exceljs',async(req,res)=>{
             { header: 'Last Name',    key: 'lastName',     width: 20 },
             { header: 'Email',        key: 'emailAddress', width: 30 },
             { header: 'Phone',        key: 'phoneNumber',  width: 15 },
-            { header: 'Scenarios',    key: 'scenarios',    width: 30 },
+            { header: 'Skill',    key: 'Skill',    width: 30 },
             { header: 'Sport Types',  key: 'sportTypes',   width: 20 },
             { header: 'Level Rate',   key: 'levelRate',    width: 10 },
             { header: 'Comments',     key: 'comments',     width: 40 }
