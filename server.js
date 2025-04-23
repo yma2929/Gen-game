@@ -24,7 +24,7 @@ application.use(cors({
     methods:['GET','POST'],
     credentials: true
 }))
-application.use("/",express.static("doc"));
+application.use("/",express.static("docs"));
 application.use(express.urlencoded({extended:false}));
 application.use(express.json());
 
