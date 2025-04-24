@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gen Game Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body { font-family: Arial; margin: 20px; }
+        .card { padding: 20px; margin: 10px 0; border-radius: 10px; box-shadow: 0 0 10px #ccc; }
+      </style>
+      <script>
+        fetch("http://localhost:3000/dashboard-data")
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById("total-players").innerText = "Total Players: " + data.totalPlayers;
+            const sportCtx = document.getElementById('sportChart').getContext('2d');
+            new Chart(sportCtx, {
+                type: 'bar',
+                data: {
+                    labels: data.sportTypes.map(item => item.sport),
+                    datasets: [{
+                        label: 'Popular Sports',
+                        data: data.sportData.map(item => item.count),
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                }
+            });
+
+            const skillCtx = document.getElementById('skillChart').getContext('2d');
+            new Chart(skillCtx, {
+                type: 'pie',
+                data: {
+                    labels: data.skills.map(item => item.level),
+                    datasets: [{
+                        label: 'Skill Levels',
+                        data: data.skills.map(item => item.count),
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                }
+            });
+            const list = document.getElementById("comments-list");
+            data.comments.forEach(comment => {
+                const li = document.createElement("li");
+                li.innerText = comment;
+                list.appendChild(li);
+            });
+        })
+        .catch(err => console.error("Error fetching data: ", err));
+      </script>
+    </head>
+
+    <body>
+       
+        <header class="item header">
+            <a href="./index.html">
+                <img class="logo" src="./media/logo.jpeg" alt="logo pic" width="100" height="100">
+            </a>
+            <nav id="navArea">
+                <ul class="navBar">
+                    
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./aboutUs.html">About Us</a></li>
+                    <li><a href="./form.html">Form</a></li>
+                    <li><a href="./chat.html">Chat</a></li>
+                    
+                </ul>
+            </nav>
+            
+        
+        </header>
+
+        <h1>📊 Gen-Game Dashboard </h1>
+
+        <div class="card" id="total-players" > Total Players: Loading....</div>
+        <canvas id="sportChart" width="400" height="200"></canvas>
+        <canvas id="skillChart" width="400" height="200"></canvas>
+
+        <h3>📝Recent Comments: </h3>
+        <ul id="comments-list">
+            
+        </ul>
+
+
+
+    </body>
+
+    <footer>
+
+        <p> &copy; 2025 Gen Game</p>
+        <p>All rights reserved</p>
+
+    </footer>
+
+    </html>

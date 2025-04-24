@@ -41,6 +41,11 @@ application.post("/dp", (req,res)=>{
     const levelRate = req.body.levelRate || '';
     const comments = req.body.comments || '';
 
+    //const sportTypesraw = req.body.sportTypes || '';
+    //const sportTypes = Array.isArray(sportTypesraw) ? sportTypesraw.join(',') : sportTypesraw;
+
+    //const skillraw = req.body.skill || '';
+    //const Skill = Array.isArray(skillraw) ? skillraw.join(',') : skillraw;
 
     let message={};
 
@@ -158,12 +163,40 @@ application.get('/export-excel-exceljs',async(req,res)=>{
         console.error('ExcelJS export error:',err);
         res.status(500).send('Failed to export file.');
     }
-})
+});
+
+application.get("/dashboard-data",async(req,res)=>{
+    try{
+        const [players] = await dp.query("SELECT * FROM player");
+       const totalPlayers = players.length;
+
+       const sportMap = {};
+       const skillMap = {};
+       const comments = {};
+
+       players.forEach(player => {
+           sportMap[player.sportTypes] = (sportMap[player.sportTypes] || 0) + 1;
+           skillMap[player.levelRate] = (skillMap[player.levelRate] || 0) + 1;
+
+           if (player.comments) {
+            comments.push(player.comments);
+           }
+       });
 
 
-
-
-
+        const sportTypes = Object.entries(sportMap).map(([sport, count]) => ({ sport, count }));
+        const skillLevels = Object.entries(skillMap).map(([level, count]) => ({ level, count }));
+        res.json({
+            totalPlayers,
+            sportTypes,
+            skillLevels,
+            comments:comments.slice(-5)
+        });
+    }catch(err){
+        console.error("Dashboard data error:",err);
+        res.status(500).send("Failed to fetch dashboard data.");
+    }
+});
 
 
 application.listen(port, ()=>{

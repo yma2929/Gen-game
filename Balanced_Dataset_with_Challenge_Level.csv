@@ -1,0 +1,271 @@
+Player_Name,Age,Skills,Preferred_Sport,Height_cm,Weight_kg,Challenge_Level
+Soccer_Player_1,24,"['Endurance', 'Jump', 'Speed']",Soccer,182,61,Easy
+Soccer_Player_2,28,"['Agility', 'Teamwork', 'Endurance', 'Speed']",Soccer,181,61,Medium
+Soccer_Player_3,18,"['Speed', 'Discipline', 'Endurance', 'Teamwork']",Soccer,162,90,Medium
+Soccer_Player_4,23,"['Flexibility', 'Teamwork', 'Stamina', 'Speed', 'Endurance']",Soccer,174,79,Easy
+Soccer_Player_5,30,"['Speed', 'Endurance', 'Teamwork', 'Coordination', 'Discipline', 'Agility']",Soccer,162,89,Hard
+Soccer_Player_6,23,"['Speed', 'Flexibility', 'Agility', 'Teamwork', 'Strength', 'Endurance']",Soccer,183,64,Easy
+Soccer_Player_7,24,"['Discipline', 'Teamwork', 'Endurance', 'Speed', 'Coordination', 'Agility']",Soccer,177,60,Medium
+Soccer_Player_8,28,"['Agility', 'Speed', 'Endurance', 'Teamwork', 'Strategy']",Soccer,186,88,Medium
+Soccer_Player_9,27,"['Strategy', 'Speed', 'Agility']",Soccer,167,73,Easy
+Soccer_Player_10,30,"['Speed', 'Jump', 'Endurance', 'Discipline', 'Agility', 'Teamwork']",Soccer,168,84,Easy
+Soccer_Player_11,19,"['Accuracy', 'Focus', 'Agility', 'Endurance']",Soccer,172,89,Hard
+Soccer_Player_12,29,"['Endurance', 'Teamwork', 'Speed', 'Agility', 'Stamina']",Soccer,181,89,Easy
+Soccer_Player_13,26,"['Agility', 'Endurance', 'Teamwork', 'Accuracy', 'Speed']",Soccer,183,81,Medium
+Soccer_Player_14,29,"['Strength', 'Focus', 'Teamwork', 'Speed', 'Endurance', 'Agility']",Soccer,169,85,Hard
+Soccer_Player_15,25,"['Agility', 'Flexibility', 'Teamwork', 'Reflexes', 'Endurance']",Soccer,167,89,Easy
+Soccer_Player_16,28,"['Agility', 'Speed', 'Strategy', 'Endurance', 'Coordination']",Soccer,167,90,Easy
+Soccer_Player_17,25,"['Strategy', 'Teamwork', 'Strength', 'Agility']",Soccer,163,86,Easy
+Soccer_Player_18,30,"['Awareness', 'Power', 'Agility', 'Teamwork']",Soccer,172,69,Easy
+Soccer_Player_19,22,"['Speed', 'Teamwork', 'Agility', 'Power', 'Endurance']",Soccer,177,75,Hard
+Soccer_Player_20,24,"['Balance', 'Speed', 'Agility', 'Awareness', 'Teamwork']",Soccer,160,58,Easy
+Soccer_Player_21,23,"['Teamwork', 'Agility', 'Endurance', 'Speed', 'Discipline']",Soccer,163,63,Medium
+Soccer_Player_22,23,"['Endurance', 'Strategy', 'Agility', 'Speed', 'Teamwork']",Soccer,190,83,Medium
+Soccer_Player_23,21,"['Teamwork', 'Stamina', 'Speed', 'Endurance', 'Coordination']",Soccer,168,63,Medium
+Soccer_Player_24,27,"['Speed', 'Focus', 'Strategy', 'Teamwork', 'Agility']",Soccer,190,69,Medium
+Soccer_Player_25,26,"['Speed', 'Agility', 'Teamwork']",Soccer,179,77,Easy
+Soccer_Player_26,30,"['Endurance', 'Teamwork', 'Jump']",Soccer,170,90,Hard
+Soccer_Player_27,28,"['Agility', 'Teamwork', 'Stamina', 'Jump']",Soccer,177,73,Hard
+Soccer_Player_28,25,"['Teamwork', 'Speed', 'Discipline', 'Endurance', 'Agility', 'Strength']",Soccer,179,73,Hard
+Soccer_Player_29,24,"['Accuracy', 'Teamwork', 'Agility']",Soccer,183,58,Medium
+Soccer_Player_30,23,"['Agility', 'Endurance', 'Speed', 'Flexibility', 'Teamwork', 'Strategy']",Soccer,182,78,Easy
+Basketball_Player_1,22,"['Jump', 'Speed', 'Accuracy', 'Strength', 'Focus', 'Flexibility']",Basketball,161,63,Easy
+Basketball_Player_2,18,"['Focus', 'Jump', 'Accuracy', 'Speed', 'Endurance']",Basketball,186,87,Easy
+Basketball_Player_3,22,"['Focus', 'Agility', 'Speed']",Basketball,171,80,Medium
+Basketball_Player_4,18,"['Strength', 'Stamina', 'Jump']",Basketball,185,69,Hard
+Basketball_Player_5,26,"['Teamwork', 'Jump', 'Speed', 'Strength']",Basketball,186,69,Medium
+Basketball_Player_6,21,"['Jump', 'Coordination', 'Speed', 'Balance', 'Strength']",Basketball,189,60,Easy
+Basketball_Player_7,30,"['Focus', 'Reflexes', 'Speed']",Basketball,161,84,Easy
+Basketball_Player_8,29,"['Speed', 'Coordination', 'Jump', 'Balance', 'Focus', 'Strength']",Basketball,185,74,Easy
+Basketball_Player_9,24,"['Balance', 'Speed', 'Discipline', 'Focus', 'Strength', 'Jump']",Basketball,172,68,Easy
+Basketball_Player_10,29,"['Reflexes', 'Awareness', 'Jump', 'Speed', 'Focus']",Basketball,178,75,Easy
+Basketball_Player_11,20,"['Speed', 'Focus', 'Agility', 'Strength']",Basketball,166,56,Easy
+Basketball_Player_12,30,"['Coordination', 'Jump', 'Awareness']",Basketball,161,62,Hard
+Basketball_Player_13,23,"['Stamina', 'Strength', 'Speed', 'Focus', 'Awareness']",Basketball,189,84,Hard
+Basketball_Player_14,26,"['Jump', 'Strength', 'Agility', 'Focus']",Basketball,184,86,Medium
+Basketball_Player_15,29,"['Speed', 'Strength', 'Jump', 'Focus', 'Awareness', 'Coordination']",Basketball,179,62,Easy
+Basketball_Player_16,18,"['Awareness', 'Speed', 'Focus']",Basketball,179,71,Easy
+Basketball_Player_17,27,"['Jump', 'Speed', 'Stamina', 'Focus', 'Strength']",Basketball,178,77,Hard
+Basketball_Player_18,19,"['Focus', 'Power', 'Strength']",Basketball,163,80,Hard
+Basketball_Player_19,22,"['Jump', 'Strength', 'Flexibility', 'Speed']",Basketball,171,62,Easy
+Basketball_Player_20,24,"['Speed', 'Awareness', 'Strength', 'Focus']",Basketball,186,56,Easy
+Basketball_Player_21,27,"['Accuracy', 'Agility', 'Speed', 'Jump', 'Strength']",Basketball,165,73,Hard
+Basketball_Player_22,28,"['Coordination', 'Strength', 'Jump']",Basketball,179,79,Medium
+Basketball_Player_23,22,"['Awareness', 'Jump', 'Speed']",Basketball,165,75,Easy
+Basketball_Player_24,19,"['Focus', 'Teamwork', 'Strength', 'Jump']",Basketball,179,85,Hard
+Basketball_Player_25,24,"['Speed', 'Discipline', 'Jump', 'Focus']",Basketball,169,59,Medium
+Basketball_Player_26,29,"['Focus', 'Power', 'Strength', 'Speed']",Basketball,184,56,Easy
+Basketball_Player_27,20,"['Strength', 'Focus', 'Speed', 'Endurance', 'Balance', 'Jump']",Basketball,184,76,Easy
+Basketball_Player_28,27,"['Strategy', 'Jump', 'Focus', 'Strength', 'Coordination', 'Speed']",Basketball,186,73,Medium
+Basketball_Player_29,27,"['Focus', 'Speed', 'Jump', 'Coordination', 'Awareness', 'Strength']",Basketball,180,78,Easy
+Basketball_Player_30,23,"['Strength', 'Focus', 'Jump']",Basketball,160,61,Hard
+Boxing_Player_1,19,"['Reflexes', 'Power', 'Strategy', 'Speed', 'Accuracy']",Boxing,169,74,Hard
+Boxing_Player_2,25,"['Jump', 'Power', 'Reflexes', 'Accuracy', 'Agility']",Boxing,167,62,Hard
+Boxing_Player_3,23,"['Accuracy', 'Coordination', 'Discipline', 'Power', 'Reflexes']",Boxing,180,59,Hard
+Boxing_Player_4,18,"['Power', 'Coordination', 'Stamina', 'Reflexes']",Boxing,166,65,Hard
+Boxing_Player_5,26,"['Focus', 'Power', 'Reflexes', 'Stamina', 'Accuracy']",Boxing,166,73,Hard
+Boxing_Player_6,27,"['Speed', 'Power', 'Accuracy', 'Agility', 'Reflexes']",Boxing,181,82,Hard
+Boxing_Player_7,23,"['Strength', 'Reflexes', 'Awareness', 'Accuracy']",Boxing,169,85,Easy
+Boxing_Player_8,20,"['Awareness', 'Agility', 'Reflexes']",Boxing,184,66,Medium
+Boxing_Player_9,26,"['Accuracy', 'Power', 'Reflexes', 'Agility', 'Focus']",Boxing,165,89,Hard
+Boxing_Player_10,26,"['Reflexes', 'Focus', 'Accuracy', 'Coordination', 'Power']",Boxing,189,77,Hard
+Boxing_Player_11,18,"['Speed', 'Jump', 'Accuracy', 'Reflexes', 'Power']",Boxing,186,55,Hard
+Boxing_Player_12,21,"['Discipline', 'Power', 'Reflexes', 'Teamwork']",Boxing,175,59,Hard
+Boxing_Player_13,23,"['Accuracy', 'Power', 'Balance']",Boxing,179,79,Easy
+Boxing_Player_14,28,"['Power', 'Jump', 'Agility', 'Reflexes', 'Accuracy']",Boxing,185,83,Hard
+Boxing_Player_15,25,"['Reflexes', 'Accuracy', 'Endurance']",Boxing,176,71,Easy
+Boxing_Player_16,24,"['Strength', 'Power', 'Accuracy', 'Reflexes']",Boxing,169,59,Hard
+Boxing_Player_17,25,"['Accuracy', 'Jump', 'Reflexes', 'Power', 'Teamwork']",Boxing,171,77,Hard
+Boxing_Player_18,21,"['Reflexes', 'Accuracy', 'Balance', 'Jump', 'Power']",Boxing,171,65,Hard
+Boxing_Player_19,20,"['Teamwork', 'Reflexes', 'Focus', 'Power']",Boxing,166,70,Hard
+Boxing_Player_20,21,"['Stamina', 'Reflexes', 'Accuracy', 'Power', 'Coordination']",Boxing,180,58,Hard
+Boxing_Player_21,20,"['Accuracy', 'Power', 'Agility']",Boxing,165,70,Hard
+Boxing_Player_22,28,"['Awareness', 'Power', 'Coordination', 'Reflexes']",Boxing,183,59,Hard
+Boxing_Player_23,20,"['Strategy', 'Power', 'Flexibility', 'Reflexes']",Boxing,165,67,Hard
+Boxing_Player_24,19,"['Reflexes', 'Accuracy', 'Teamwork', 'Focus', 'Power']",Boxing,179,87,Hard
+Boxing_Player_25,24,"['Discipline', 'Accuracy', 'Strength', 'Power']",Boxing,185,84,Medium
+Boxing_Player_26,26,"['Reflexes', 'Teamwork', 'Power', 'Accuracy']",Boxing,171,58,Hard
+Boxing_Player_27,28,"['Accuracy', 'Power', 'Reflexes', 'Awareness']",Boxing,185,80,Hard
+Boxing_Player_28,26,"['Accuracy', 'Flexibility', 'Focus']",Boxing,174,55,Easy
+Boxing_Player_29,23,"['Flexibility', 'Reflexes', 'Power']",Boxing,164,69,Hard
+Boxing_Player_30,20,"['Reflexes', 'Accuracy', 'Strategy', 'Power']",Boxing,162,88,Hard
+Gymnastics_Player_1,25,"['Flexibility', 'Discipline', 'Agility', 'Balance', 'Coordination']",Gymnastics,176,88,Easy
+Gymnastics_Player_2,21,"['Balance', 'Accuracy', 'Speed', 'Flexibility']",Gymnastics,160,65,Easy
+Gymnastics_Player_3,26,"['Power', 'Coordination', 'Balance', 'Jump', 'Flexibility']",Gymnastics,170,77,Easy
+Gymnastics_Player_4,25,"['Coordination', 'Speed', 'Balance', 'Flexibility']",Gymnastics,183,75,Easy
+Gymnastics_Player_5,21,"['Strategy', 'Coordination', 'Flexibility', 'Strength']",Gymnastics,189,80,Easy
+Gymnastics_Player_6,25,"['Flexibility', 'Balance', 'Accuracy', 'Coordination', 'Endurance']",Gymnastics,167,57,Easy
+Gymnastics_Player_7,28,"['Flexibility', 'Strategy', 'Balance', 'Coordination', 'Reflexes']",Gymnastics,175,69,Easy
+Gymnastics_Player_8,23,"['Agility', 'Coordination', 'Balance', 'Power']",Gymnastics,174,60,Easy
+Gymnastics_Player_9,21,"['Flexibility', 'Speed', 'Endurance', 'Coordination', 'Balance']",Gymnastics,182,67,Easy
+Gymnastics_Player_10,28,"['Coordination', 'Strength', 'Flexibility']",Gymnastics,161,87,Easy
+Gymnastics_Player_11,19,"['Endurance', 'Coordination', 'Flexibility']",Gymnastics,184,78,Easy
+Gymnastics_Player_12,19,"['Balance', 'Coordination', 'Stamina', 'Flexibility', 'Speed']",Gymnastics,173,89,Easy
+Gymnastics_Player_13,26,"['Discipline', 'Strategy', 'Balance', 'Coordination']",Gymnastics,185,67,Easy
+Gymnastics_Player_14,28,"['Strength', 'Balance', 'Agility', 'Flexibility']",Gymnastics,184,78,Easy
+Gymnastics_Player_15,22,"['Balance', 'Strategy', 'Coordination', 'Endurance']",Gymnastics,180,60,Easy
+Gymnastics_Player_16,27,"['Coordination', 'Balance', 'Jump']",Gymnastics,181,63,Easy
+Gymnastics_Player_17,26,"['Reflexes', 'Coordination', 'Speed', 'Balance', 'Flexibility']",Gymnastics,175,73,Easy
+Gymnastics_Player_18,20,"['Flexibility', 'Coordination', 'Agility', 'Balance', 'Strength']",Gymnastics,170,59,Easy
+Gymnastics_Player_19,23,"['Coordination', 'Balance', 'Focus', 'Flexibility', 'Awareness']",Gymnastics,183,76,Easy
+Gymnastics_Player_20,18,"['Accuracy', 'Coordination', 'Balance', 'Flexibility']",Gymnastics,174,90,Easy
+Gymnastics_Player_21,25,"['Strategy', 'Flexibility', 'Balance', 'Coordination', 'Endurance']",Gymnastics,180,62,Easy
+Gymnastics_Player_22,30,"['Speed', 'Awareness', 'Coordination', 'Balance', 'Flexibility']",Gymnastics,173,69,Easy
+Gymnastics_Player_23,24,"['Balance', 'Jump', 'Flexibility', 'Agility', 'Coordination']",Gymnastics,168,87,Easy
+Gymnastics_Player_24,22,"['Coordination', 'Awareness', 'Flexibility', 'Strategy']",Gymnastics,177,83,Easy
+Gymnastics_Player_25,23,"['Flexibility', 'Speed', 'Balance', 'Coordination']",Gymnastics,188,65,Easy
+Gymnastics_Player_26,18,"['Coordination', 'Stamina', 'Flexibility', 'Reflexes', 'Balance']",Gymnastics,182,66,Easy
+Gymnastics_Player_27,23,"['Awareness', 'Flexibility', 'Agility', 'Coordination', 'Balance']",Gymnastics,160,75,Easy
+Gymnastics_Player_28,22,"['Coordination', 'Focus', 'Reflexes', 'Balance', 'Flexibility']",Gymnastics,179,83,Easy
+Gymnastics_Player_29,18,"['Agility', 'Balance', 'Flexibility', 'Endurance']",Gymnastics,166,73,Easy
+Gymnastics_Player_30,22,"['Coordination', 'Balance', 'Power']",Gymnastics,184,88,Easy
+Esports_Player_1,19,"['Strategy', 'Reflexes', 'Focus']",Esports,173,88,Medium
+Esports_Player_2,25,"['Focus', 'Coordination', 'Reflexes', 'Strategy']",Esports,190,65,Medium
+Esports_Player_3,26,"['Teamwork', 'Reflexes', 'Focus', 'Accuracy']",Esports,179,74,Medium
+Esports_Player_4,30,"['Reflexes', 'Focus', 'Agility', 'Strategy']",Esports,184,60,Medium
+Esports_Player_5,27,"['Focus', 'Endurance', 'Teamwork', 'Strategy']",Esports,182,86,Medium
+Esports_Player_6,29,"['Focus', 'Flexibility', 'Discipline', 'Reflexes']",Esports,170,63,Easy
+Esports_Player_7,26,"['Discipline', 'Focus', 'Reflexes', 'Speed']",Esports,166,76,Medium
+Esports_Player_8,22,"['Power', 'Reflexes', 'Strategy', 'Focus']",Esports,175,86,Hard
+Esports_Player_9,27,"['Balance', 'Endurance', 'Strategy', 'Reflexes']",Esports,175,60,Easy
+Esports_Player_10,24,"['Strategy', 'Reflexes', 'Teamwork', 'Focus']",Esports,163,63,Medium
+Esports_Player_11,26,"['Stamina', 'Strategy', 'Focus']",Esports,165,82,Medium
+Esports_Player_12,21,"['Focus', 'Strength', 'Reflexes', 'Strategy']",Esports,162,73,Medium
+Esports_Player_13,21,"['Awareness', 'Focus', 'Strength', 'Strategy']",Esports,162,82,Medium
+Esports_Player_14,26,"['Reflexes', 'Strategy', 'Focus']",Esports,170,88,Medium
+Esports_Player_15,19,"['Strategy', 'Balance', 'Reflexes', 'Focus', 'Coordination']",Esports,164,84,Medium
+Esports_Player_16,30,"['Strategy', 'Flexibility', 'Focus', 'Reflexes', 'Agility']",Esports,169,64,Medium
+Esports_Player_17,30,"['Focus', 'Discipline', 'Reflexes', 'Awareness']",Esports,180,57,Easy
+Esports_Player_18,21,"['Agility', 'Reflexes', 'Focus', 'Endurance']",Esports,169,61,Easy
+Esports_Player_19,21,"['Strength', 'Strategy', 'Reflexes']",Esports,182,83,Hard
+Esports_Player_20,23,"['Strategy', 'Balance', 'Flexibility']",Esports,162,57,Easy
+Esports_Player_21,23,"['Awareness', 'Reflexes', 'Focus', 'Balance', 'Strategy']",Esports,163,74,Medium
+Esports_Player_22,28,"['Teamwork', 'Focus', 'Power', 'Strategy', 'Reflexes']",Esports,185,76,Hard
+Esports_Player_23,24,"['Awareness', 'Focus', 'Strategy']",Esports,171,68,Medium
+Esports_Player_24,28,"['Agility', 'Strategy', 'Focus', 'Balance']",Esports,162,89,Medium
+Esports_Player_25,30,"['Teamwork', 'Focus', 'Endurance', 'Strategy', 'Reflexes']",Esports,160,72,Medium
+Esports_Player_26,27,"['Accuracy', 'Focus', 'Strategy', 'Reflexes', 'Balance']",Esports,173,66,Medium
+Esports_Player_27,29,"['Jump', 'Accuracy', 'Strategy', 'Reflexes']",Esports,160,79,Hard
+Esports_Player_28,30,"['Strategy', 'Reflexes', 'Focus']",Esports,171,59,Medium
+Esports_Player_29,19,"['Flexibility', 'Focus', 'Strategy', 'Jump', 'Reflexes']",Esports,169,86,Medium
+Esports_Player_30,28,"['Jump', 'Accuracy', 'Reflexes', 'Focus']",Esports,188,84,Easy
+Chess_Player_1,29,"['Teamwork', 'Agility', 'Strategy', 'Focus']",Chess,184,84,Medium
+Chess_Player_2,27,"['Discipline', 'Strategy', 'Focus', 'Reflexes']",Chess,189,58,Medium
+Chess_Player_3,27,"['Strategy', 'Coordination', 'Focus']",Chess,188,83,Medium
+Chess_Player_4,20,"['Teamwork', 'Focus', 'Discipline']",Chess,166,61,Medium
+Chess_Player_5,20,"['Focus', 'Strategy', 'Balance']",Chess,171,76,Medium
+Chess_Player_6,25,"['Strategy', 'Strength', 'Focus', 'Jump']",Chess,172,60,Medium
+Chess_Player_7,21,"['Strategy', 'Flexibility', 'Agility']",Chess,164,82,Easy
+Chess_Player_8,25,"['Endurance', 'Focus', 'Accuracy', 'Strategy']",Chess,180,60,Medium
+Chess_Player_9,25,"['Strategy', 'Jump', 'Focus', 'Awareness']",Chess,184,65,Medium
+Chess_Player_10,27,"['Jump', 'Strategy', 'Focus', 'Reflexes']",Chess,165,69,Medium
+Chess_Player_11,20,"['Focus', 'Awareness', 'Strategy', 'Jump']",Chess,160,87,Medium
+Chess_Player_12,28,"['Speed', 'Strategy', 'Focus', 'Coordination']",Chess,174,81,Medium
+Chess_Player_13,25,"['Agility', 'Power', 'Strategy', 'Focus']",Chess,187,59,Medium
+Chess_Player_14,25,"['Strategy', 'Focus', 'Power']",Chess,178,70,Medium
+Chess_Player_15,22,"['Focus', 'Strategy', 'Endurance', 'Stamina']",Chess,188,63,Medium
+Chess_Player_16,23,"['Accuracy', 'Strategy', 'Focus', 'Discipline']",Chess,165,71,Medium
+Chess_Player_17,18,"['Focus', 'Strategy', 'Balance', 'Discipline']",Chess,160,61,Medium
+Chess_Player_18,21,"['Teamwork', 'Discipline', 'Focus']",Chess,171,59,Medium
+Chess_Player_19,24,"['Discipline', 'Focus', 'Strategy', 'Teamwork']",Chess,175,75,Medium
+Chess_Player_20,18,"['Strength', 'Strategy', 'Reflexes', 'Focus']",Chess,160,68,Medium
+Chess_Player_21,21,"['Jump', 'Focus', 'Strategy', 'Agility']",Chess,167,80,Medium
+Chess_Player_22,22,"['Accuracy', 'Strategy', 'Focus']",Chess,170,67,Medium
+Chess_Player_23,21,"['Strength', 'Focus', 'Coordination', 'Strategy']",Chess,181,61,Medium
+Chess_Player_24,21,"['Strategy', 'Focus', 'Accuracy', 'Awareness']",Chess,166,86,Medium
+Chess_Player_25,30,"['Focus', 'Endurance', 'Balance', 'Strategy']",Chess,183,63,Medium
+Chess_Player_26,26,"['Balance', 'Strategy', 'Power', 'Focus']",Chess,168,67,Medium
+Chess_Player_27,25,"['Strategy', 'Awareness', 'Focus']",Chess,187,88,Medium
+Chess_Player_28,25,"['Agility', 'Focus', 'Awareness', 'Strategy']",Chess,175,61,Medium
+Chess_Player_29,20,"['Stamina', 'Focus', 'Strategy', 'Accuracy']",Chess,181,87,Medium
+Chess_Player_30,29,"['Focus', 'Agility', 'Coordination', 'Strategy']",Chess,187,84,Medium
+Swimming_Player_1,23,"['Discipline', 'Coordination', 'Accuracy', 'Power', 'Endurance']",Swimming,180,76,Easy
+Swimming_Player_2,20,"['Discipline', 'Endurance', 'Balance']",Swimming,167,76,Easy
+Swimming_Player_3,30,"['Flexibility', 'Stamina', 'Endurance', 'Discipline', 'Power']",Swimming,188,63,Easy
+Swimming_Player_4,29,"['Awareness', 'Power', 'Endurance']",Swimming,181,67,Easy
+Swimming_Player_5,28,"['Accuracy', 'Power', 'Endurance', 'Discipline']",Swimming,161,70,Easy
+Swimming_Player_6,20,"['Endurance', 'Speed', 'Power', 'Strategy', 'Discipline']",Swimming,176,55,Medium
+Swimming_Player_7,22,"['Power', 'Discipline', 'Focus', 'Endurance', 'Speed']",Swimming,171,73,Hard
+Swimming_Player_8,27,"['Strategy', 'Endurance', 'Power', 'Awareness']",Swimming,164,70,Medium
+Swimming_Player_9,29,"['Agility', 'Endurance', 'Power']",Swimming,172,76,Easy
+Swimming_Player_10,27,"['Discipline', 'Jump', 'Endurance', 'Teamwork']",Swimming,169,82,Medium
+Swimming_Player_11,25,"['Endurance', 'Power', 'Discipline', 'Agility']",Swimming,186,84,Hard
+Swimming_Player_12,20,"['Speed', 'Stamina', 'Endurance', 'Discipline', 'Power']",Swimming,170,63,Hard
+Swimming_Player_13,30,"['Discipline', 'Power', 'Coordination']",Swimming,169,86,Hard
+Swimming_Player_14,26,"['Power', 'Endurance', 'Balance']",Swimming,164,56,Easy
+Swimming_Player_15,20,"['Strategy', 'Teamwork', 'Discipline', 'Endurance']",Swimming,181,76,Hard
+Swimming_Player_16,23,"['Discipline', 'Reflexes', 'Power', 'Endurance', 'Agility']",Swimming,167,86,Hard
+Swimming_Player_17,25,"['Teamwork', 'Power', 'Focus', 'Endurance', 'Discipline']",Swimming,188,70,Medium
+Swimming_Player_18,20,"['Stamina', 'Discipline', 'Endurance', 'Power']",Swimming,165,72,Medium
+Swimming_Player_19,25,"['Endurance', 'Jump', 'Discipline', 'Accuracy', 'Power']",Swimming,165,90,Hard
+Swimming_Player_20,24,"['Discipline', 'Power', 'Endurance', 'Reflexes', 'Jump']",Swimming,169,59,Hard
+Swimming_Player_21,27,"['Discipline', 'Awareness', 'Power', 'Accuracy', 'Endurance']",Swimming,166,73,Hard
+Swimming_Player_22,24,"['Endurance', 'Power', 'Jump']",Swimming,189,83,Easy
+Swimming_Player_23,21,"['Stamina', 'Discipline', 'Strength', 'Power', 'Endurance']",Swimming,164,88,Medium
+Swimming_Player_24,18,"['Strategy', 'Endurance', 'Discipline', 'Reflexes', 'Power']",Swimming,188,84,Hard
+Swimming_Player_25,25,"['Endurance', 'Discipline', 'Awareness', 'Power', 'Focus']",Swimming,165,77,Hard
+Swimming_Player_26,25,"['Power', 'Speed', 'Endurance', 'Discipline', 'Reflexes']",Swimming,160,69,Hard
+Swimming_Player_27,30,"['Balance', 'Power', 'Discipline']",Swimming,161,84,Easy
+Swimming_Player_28,27,"['Balance', 'Strength', 'Discipline', 'Endurance', 'Power']",Swimming,165,71,Easy
+Swimming_Player_29,22,"['Endurance', 'Power', 'Discipline', 'Strength', 'Flexibility']",Swimming,165,58,Easy
+Swimming_Player_30,28,"['Jump', 'Discipline', 'Power', 'Endurance', 'Coordination']",Swimming,165,57,Medium
+Track & Field_Player_1,27,"['Speed', 'Agility', 'Stamina', 'Power', 'Reflexes']",Track & Field,160,87,Hard
+Track & Field_Player_2,25,"['Accuracy', 'Stamina', 'Speed']",Track & Field,173,71,Easy
+Track & Field_Player_3,23,"['Balance', 'Power', 'Speed', 'Teamwork', 'Stamina']",Track & Field,183,57,Easy
+Track & Field_Player_4,19,"['Stamina', 'Speed', 'Power', 'Accuracy']",Track & Field,176,81,Hard
+Track & Field_Player_5,27,"['Strategy', 'Jump', 'Power', 'Stamina', 'Speed']",Track & Field,189,66,Medium
+Track & Field_Player_6,23,"['Speed', 'Strategy', 'Power', 'Stamina']",Track & Field,162,63,Medium
+Track & Field_Player_7,30,"['Speed', 'Discipline', 'Power', 'Stamina']",Track & Field,185,82,Easy
+Track & Field_Player_8,29,"['Strategy', 'Stamina', 'Jump', 'Speed', 'Power']",Track & Field,165,86,Easy
+Track & Field_Player_9,21,"['Stamina', 'Agility', 'Power', 'Speed', 'Endurance']",Track & Field,161,65,Easy
+Track & Field_Player_10,28,"['Stamina', 'Jump', 'Speed', 'Agility', 'Power']",Track & Field,179,78,Medium
+Track & Field_Player_11,22,"['Accuracy', 'Stamina', 'Power', 'Jump']",Track & Field,188,83,Medium
+Track & Field_Player_12,24,"['Power', 'Stamina', 'Speed', 'Flexibility']",Track & Field,165,83,Easy
+Track & Field_Player_13,21,"['Awareness', 'Power', 'Speed']",Track & Field,160,81,Easy
+Track & Field_Player_14,23,"['Stamina', 'Coordination', 'Endurance', 'Speed', 'Power']",Track & Field,160,60,Hard
+Track & Field_Player_15,30,"['Coordination', 'Speed', 'Power']",Track & Field,184,56,Easy
+Track & Field_Player_16,30,"['Speed', 'Power', 'Stamina']",Track & Field,170,57,Hard
+Track & Field_Player_17,27,"['Balance', 'Strategy', 'Power']",Track & Field,188,79,Easy
+Track & Field_Player_18,22,"['Agility', 'Power', 'Speed', 'Stamina', 'Flexibility']",Track & Field,167,88,Easy
+Track & Field_Player_19,25,"['Coordination', 'Strength', 'Stamina', 'Speed']",Track & Field,172,73,Easy
+Track & Field_Player_20,20,"['Speed', 'Strength', 'Stamina', 'Coordination']",Track & Field,162,80,Easy
+Track & Field_Player_21,21,"['Reflexes', 'Stamina', 'Power', 'Flexibility', 'Speed']",Track & Field,160,63,Hard
+Track & Field_Player_22,19,"['Stamina', 'Jump', 'Speed', 'Power', 'Agility']",Track & Field,179,64,Hard
+Track & Field_Player_23,25,"['Coordination', 'Stamina', 'Discipline']",Track & Field,163,78,Medium
+Track & Field_Player_24,29,"['Power', 'Stamina', 'Jump', 'Coordination', 'Speed']",Track & Field,180,82,Medium
+Track & Field_Player_25,27,"['Discipline', 'Speed', 'Power', 'Teamwork', 'Stamina']",Track & Field,178,76,Medium
+Track & Field_Player_26,30,"['Stamina', 'Focus', 'Power', 'Speed']",Track & Field,161,64,Easy
+Track & Field_Player_27,28,"['Strength', 'Flexibility', 'Stamina', 'Power']",Track & Field,190,81,Easy
+Track & Field_Player_28,26,"['Power', 'Stamina', 'Balance', 'Speed', 'Endurance']",Track & Field,182,64,Easy
+Track & Field_Player_29,23,"['Stamina', 'Teamwork', 'Speed', 'Power']",Track & Field,167,78,Easy
+Track & Field_Player_30,25,"['Power', 'Accuracy', 'Speed', 'Agility', 'Stamina']",Track & Field,164,74,Easy
+Parkour_Player_1,26,"['Agility', 'Awareness', 'Jump']",Parkour,172,86,Medium
+Parkour_Player_2,19,"['Agility', 'Balance', 'Awareness', 'Focus', 'Strategy']",Parkour,176,83,Medium
+Parkour_Player_3,23,"['Awareness', 'Balance', 'Agility', 'Speed']",Parkour,188,78,Easy
+Parkour_Player_4,30,"['Coordination', 'Jump', 'Agility', 'Awareness', 'Balance']",Parkour,172,75,Easy
+Parkour_Player_5,29,"['Agility', 'Strength', 'Balance', 'Awareness']",Parkour,189,59,Easy
+Parkour_Player_6,27,"['Coordination', 'Awareness', 'Balance', 'Teamwork', 'Agility']",Parkour,178,72,Easy
+Parkour_Player_7,19,"['Teamwork', 'Balance', 'Speed', 'Agility', 'Awareness']",Parkour,166,74,Easy
+Parkour_Player_8,18,"['Teamwork', 'Balance', 'Awareness']",Parkour,187,87,Easy
+Parkour_Player_9,20,"['Reflexes', 'Agility', 'Awareness']",Parkour,176,75,Hard
+Parkour_Player_10,25,"['Balance', 'Awareness', 'Discipline', 'Flexibility', 'Agility']",Parkour,181,70,Easy
+Parkour_Player_11,26,"['Discipline', 'Balance', 'Awareness', 'Agility', 'Strategy']",Parkour,180,79,Easy
+Parkour_Player_12,24,"['Balance', 'Endurance', 'Agility']",Parkour,178,76,Easy
+Parkour_Player_13,23,"['Balance', 'Agility', 'Power', 'Awareness', 'Strategy']",Parkour,184,71,Easy
+Parkour_Player_14,25,"['Awareness', 'Endurance', 'Jump', 'Agility', 'Balance']",Parkour,190,86,Easy
+Parkour_Player_15,30,"['Balance', 'Focus', 'Awareness', 'Strength', 'Agility']",Parkour,178,88,Easy
+Parkour_Player_16,18,"['Awareness', 'Endurance', 'Balance', 'Flexibility', 'Agility']",Parkour,187,84,Easy
+Parkour_Player_17,28,"['Awareness', 'Agility', 'Balance', 'Focus', 'Teamwork']",Parkour,172,71,Easy
+Parkour_Player_18,24,"['Strength', 'Awareness', 'Stamina']",Parkour,171,61,Hard
+Parkour_Player_19,27,"['Speed', 'Agility', 'Awareness', 'Accuracy']",Parkour,180,76,Hard
+Parkour_Player_20,25,"['Agility', 'Coordination', 'Awareness', 'Balance']",Parkour,173,61,Easy
+Parkour_Player_21,29,"['Awareness', 'Balance', 'Agility', 'Jump', 'Stamina']",Parkour,161,72,Easy
+Parkour_Player_22,22,"['Balance', 'Awareness', 'Focus', 'Reflexes', 'Agility']",Parkour,169,58,Easy
+Parkour_Player_23,25,"['Agility', 'Awareness', 'Reflexes', 'Accuracy', 'Balance']",Parkour,164,59,Easy
+Parkour_Player_24,26,"['Agility', 'Awareness', 'Balance', 'Reflexes', 'Discipline']",Parkour,162,59,Easy
+Parkour_Player_25,22,"['Strategy', 'Agility', 'Awareness', 'Teamwork', 'Balance']",Parkour,179,90,Easy
+Parkour_Player_26,21,"['Awareness', 'Teamwork', 'Agility', 'Flexibility']",Parkour,163,88,Easy
+Parkour_Player_27,24,"['Awareness', 'Speed', 'Flexibility', 'Balance']",Parkour,171,59,Easy
+Parkour_Player_28,21,"['Awareness', 'Agility', 'Balance', 'Flexibility', 'Coordination']",Parkour,183,77,Easy
+Parkour_Player_29,27,"['Agility', 'Awareness', 'Coordination', 'Balance', 'Jump']",Parkour,161,79,Easy
+Parkour_Player_30,20,"['Awareness', 'Reflexes', 'Stamina', 'Agility']",Parkour,165,78,Hard
