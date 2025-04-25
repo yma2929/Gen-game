@@ -164,7 +164,7 @@ application.get('/export-excel-exceljs',async(req,res)=>{
         res.status(500).send('Failed to export file.');
     }
 });
-
+/*
 application.get("/dashboard-data",async(req,res)=>{
     try{
         const [players] = await dp.query("SELECT * FROM player");
@@ -196,7 +196,7 @@ application.get("/dashboard-data",async(req,res)=>{
         console.error("Dashboard data error:",err);
         res.status(500).send("Failed to fetch dashboard data.");
     }
-});
+});*/
 
 
 application.listen(port, ()=>{

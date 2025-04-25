@@ -12,8 +12,8 @@ form.addEventListener("submit", function(event) {
     const emailAddress = document.getElementById("emailAddress").value.trim();
     const phoneNumber = document.getElementById("phoneNumber").value.trim();
     const comments = document.getElementById("textarea").value;
-    const sportTypes = Array.from(document.querySelectorAll('input[name="sportTypes"]:checked')).map(el => el.value);
-    const Skill = Array.from(document.querySelectorAll('input[name="Skill"]:checked')).map(el => el.value);
+    const sportTypes = document.querySelector('input[name="sportTypes"]:checked')?.value;
+    const Skill =document.querySelector('input[name="Skill"]:checked')?.value;
     const levelRate = document.querySelector('input[name="levelRate"]:checked')?.value;
 
 
