@@ -18,3 +18,8 @@ that uses a machine learning model to predict player’s behavior based on their
 -Database: MySQL
 -Others: ExcelJS,  XAMPP
 
+
+🌐 Live Preview
+
+
+You can view the live version here: https://yma2929.github.io/Gen-game/
